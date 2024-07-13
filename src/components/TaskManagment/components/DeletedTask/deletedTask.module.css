@@ -1,0 +1,56 @@
+.container {
+  padding: 16px;
+}
+
+.deletedTaskBox {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.deletedTaskBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.deletedTaskTitle {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.deletedTaskDescription {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.deletedTaskDeadline {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #888;
+}
+
+.deletedTaskStatus {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.noTasksBox {
+  background-color: #ff1744;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.backButton {
+  margin-top: 16px;
+}
